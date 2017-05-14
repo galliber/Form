@@ -1,0 +1,33 @@
+body{
+	background-color: orange;
+}
+#whole{
+	background-color: #999999;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Header{
+	background-color: black;
+	color: orange;
+	text-align: center;
+}
+#content{
+	padding: 10px;
+	width: 700px;
+	align-self: center;
+}
+#form{
+	background-color: #999977;
+	color: #FFFF00;
+	float: right;
+	width: 190px;
+	padding-right: : 10px;
+	height: 200px;
+}
+#picture{
+	float: left;
+}
+#footer{
+	background-color: grey;
+	clear: both;
+}

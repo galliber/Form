@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BNHA</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	<div id="whole">
+		<div id="Header">
+			<h1>Boku no Hero Academia!</h1>
+		</div>
+		<div id="content">
+			<div id="form">
+				<form id="form1">
+					Name: <input type="text" name="Name" size="15">
+					Password: <input type="text" name="pass">
+				</form>
+				<button onclick="showName()">Submit</button >
+				<script >
+					function showName(){
+						var x, name, pass;
+						x = document.getElementById("form1");
+						name= x.elements["Name"].value;
+						pass=x.elements["pass"].value;
+						document.getElementById("demo").innerHTML="The name you've entered :" + name;
+						document.getElementById("demo2").innerHTML="The Password you've entered :" + pass;
+					}
+				</script>
+				<p id="demo"></p>
+				<p id="demo2"></p>
+			</div>
+			<div id="picture">
+				<a href="http://anilinkz.io/series/boku-no-hero-academia">
+					<img src="img\3292.jpg" alt="hero Academia">
+					</a>
+			</div>
+		</div>
+		<div id="footer">
+			Copyright &copy; Galiber 2017
+		</div>
+	</div>
+</body>
+</html>
